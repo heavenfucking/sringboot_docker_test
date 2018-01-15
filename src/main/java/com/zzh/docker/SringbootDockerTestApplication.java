@@ -15,6 +15,6 @@ public class SringbootDockerTestApplication {
 
 	@GetMapping("docker/test")
 	public Object test(){
-		return "spting boot docker start !!!";
+		return "spting boot docker start success";
 	}
 }
